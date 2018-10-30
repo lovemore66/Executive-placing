@@ -1,0 +1,476 @@
+p,h1,h2,h3,h4,li{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main{
+	max-width: 1200px;
+	width: 100%;
+	border-left: 1px solid #eee;
+	margin: 0 auto;
+	height: 100%;
+	padding: 20px;
+	position: relative;
+	border-right: 1px solid #eee;
+}
+#logo{
+	width: 100%;
+	height: 100%;
+}
+
+#logo img{
+	max-height: 130px;
+	max-width: 150px;
+	width: 100%;
+	height: 100%;
+}
+#services h2{
+	color: #741096;
+
+}
+#serv{
+	padding-left: 30px;
+}
+#welcome h1{
+
+}
+
+#logo h2{
+	position: absolute;
+	top:110px;
+	left: 100px;
+	z-index:100;
+	width: 100%;
+	height: 100%;
+	max-width: 250px;
+	max-height: 50px;
+}
+
+
+
+#logo_social{
+	display: grid;
+	grid-template-columns: 50% 30% 20%;
+	
+}
+
+
+
+#values{
+	display: grid;
+	grid-template-columns: 69% 30%;
+	grid-column-gap: 1%;
+	margin-top: 10px;
+
+}
+#grid{
+	display: grid;
+	grid-template-columns: 20% 80%;
+
+}
+#grid i{
+	float: right;
+	padding-top: 20px;
+}
+#list{
+background: brown;
+
+}
+
+#values h1{
+	font-size: 25px;
+	
+}
+
+#values1 p{
+color:#212123;
+max-width: 350px;
+padding-left: 30px;
+}
+
+
+footer{
+	height: 50px;
+	background: gray;
+	margin-top: 8px;
+	text-align: center;
+	color: #fff;
+}
+footer #social i{
+	line-height: 50px;
+}
+#contacts img{
+background: #ccc;
+	height: 40px;
+	width: 40px;
+
+}
+
+#contacts {
+
+text-align: center;
+
+
+}
+
+#contacts h2{
+	border: 1px solid #eee;
+	max-width: 250px;
+	width: 100%;
+	padding: 3PX;
+	font-size: 17PX;
+	border-radius: 5px;
+	color: gray;
+
+}
+
+#job{
+	color: white;
+	background: brown;
+	height: 30px;
+	max-width: 150px;
+	padding-left: 15px;
+    webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 75% 100%, 0% 100%);}
+
+#job a{
+color: white;
+text-decoration: none;
+}
+
+#learn a{
+color: white;
+text-decoration: none;
+
+
+
+}
+#learn{
+	color: white;
+	margin-top: -20px;
+	background: gray;
+	height: 30px;
+	max-width: 200px;
+	padding-left: 15px;
+	webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 75% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 90% 100%, 0% 100%);
+
+
+}
+#services{
+	display: grid;
+	grid-template-columns: 38% 30% 30%;
+	grid-column-gap: 1%;
+	margin-top: 8px;
+}
+#serv{
+	height: 200px;
+	border: 1px solid #eee;
+	
+}
+#container{
+	padding: 30px;
+	margin-top: 20px;
+	 background: linear-gradient(277deg, #737274, #fefeff, #b7a66f, #dbd9d6, #d4cad9, #796c7f, #2f2d30, #99959b, #f3eff5);
+background-size: 1800% 1800%;
+
+-webkit-animation: AnimationName 51s ease infinite;
+-moz-animation: AnimationName 51s ease infinite;
+animation: AnimationName 51s ease infinite;
+
+}
+
+ @-webkit-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+#values1{
+	border: 1px solid #eee;
+	padding: 30px;
+	
+	color: #ffff;
+
+  background-image: linear-gradient(#fff, gray, #fff)
+}
+
+#values1 h1{
+color:   #fdfefe ;
+max-width: 580px;
+margin: 0px auto;
+ text-shadow: 1px 1px 2px #000000;	
+}
+
+#values2{
+	border: 1px solid #eee;
+	padding: 30px;
+}
+#values2 h1{
+color:#741096;
+}
+
+#foot{
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+#animate{
+	width: 100%;
+
+}
+
+#animate ul{
+max-width: 700px;
+width: 80%;
+float: right;
+margin-top: -30px;
+background: #eee;
+}
+
+
+#animate ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+#animate ul li a{
+	display: block;
+	list-style: none;
+	padding: 10px;
+	margin: 0 10px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 17px;
+	text-transform: uppercase;
+	position: relative;
+	color: gray;
+}
+
+
+
+#animate ul li a:before {
+position: absolute;
+content: '';
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-top: 2px solid brown;
+border-left: 2px solid brown;
+box-sizing: border-box;
+transition: 0.5s;
+opacity: 0;
+
+
+}
+
+#animate ul li a:after {
+position: absolute;
+content: '';
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+border-right: 2px solid brown;
+border-bottom: 2px solid brown;
+box-sizing: border-box;
+transition: 0.5s;
+opacity: 0;
+}
+
+#animate ul li a:hover:after{
+width: 10px;
+height: 10px;
+opacity: .9;
+transition-delay: 0.5s;
+
+ }
+ #animate ul li a:hover:before {
+width: 10px;
+height: 10px;
+
+opacity: .9;
+
+ }
+
+ #welcome h1{
+animation: text_animation 3s steps(810),blink 0.5s alternate infinite;
+overflow: hidden;
+white-space: nowrap;
+max-width: 810px;
+border-right: 2px solid black;
+margin:0 auto;
+ }
+
+ .nav i{
+ 	display: none;
+ }
+
+ #map{
+ 	margin: 50px auto;
+ 	max-width: 800px;
+ 	width: 100%;
+ }
+#details{
+	border:1px solid #ccc;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#submit{
+	margin-top: 20px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 4px;
+	font-size: 16px;
+}
+#page-title {
+	max-width: 300px;
+	margin: 50px auto;
+	height: 30px;
+
+	}
+
+#page-title p{
+	max-width: 300px;
+	font-size: 20px;
+	text-align: center;
+	color: gray;
+	text-transform: uppercase;
+		height: 30px;
+}
+
+ @keyframes text_animation{
+ 	from{ width: 0; }
+    to{
+    	width: 820px;
+    }
+ }
+
+ @keyframes blink{
+ 	from{ border-color: transparent; }
+    to{
+    	border-color: black;
+    }
+ }
+
+
+
+
+@media only screen and (max-width: 1014px){
+
+
+#animate ul{
+max-width: 700px;
+width: 100%;
+float: none;
+margin-top: 0px;
+display: none
+}
+
+
+
+.nav i{
+ 	display: block;
+ 	cursor: pointer;
+ }
+
+
+}
+
+@media only screen and (max-width: 615px){
+
+#services{
+	display: block;
+}
+
+
+#animate ul li {
+	border:none;
+	display: block;
+	max-width: 140px;
+	
+}
+
+
+
+#contacts h2{
+	display: none;
+}
+
+#social i{
+margin-top: 20px;
+}
+
+#logo_social{
+display: grid;
+grid-template-columns: 40% 20% 40%;
+
+}
+
+#grid{
+	display: block;
+}
+
+#grid i{
+	float: left;
+	padding-right: 20px;
+}
+
+#values{
+	display: block;
+}
+
+
+#services{
+	display: block;
+}
+
+
+footer{
+	height: 50%;
+	background: gray;
+	margin-top: 8px;
+	text-align: left;
+	color: #fff;
+}
+
+
+#foot{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding-left: 10px;
+	grid-gap: 5px;
+}
+
+
+footer  i{
+margin-top: 30px;
+
+}
+
+
+footer  p{
+margin-top: 30px;
+
+}
+
+
+#social {
+
+}
+
+}
+
+
+
+
